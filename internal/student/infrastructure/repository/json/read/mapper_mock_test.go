@@ -4,7 +4,7 @@ package read_test
 
 import (
 	domain "github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/domain"
-	dto "github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/infrastructure/repository/json/dto"
+	dto2 "github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/infrastructure/repository/dto"
 	mock "github.com/stretchr/testify/mock"
 )
 
@@ -14,11 +14,11 @@ type MapperMock struct {
 }
 
 // DTOClassesToDomain provides a mock function with given fields: classes
-func (_m *MapperMock) DTOClassesToDomain(classes []dto.Class) []domain.Class {
+func (_m *MapperMock) DTOClassesToDomain(classes []dto2.Class) []domain.Class {
 	ret := _m.Called(classes)
 
 	var r0 []domain.Class
-	if rf, ok := ret.Get(0).(func([]dto.Class) []domain.Class); ok {
+	if rf, ok := ret.Get(0).(func([]dto2.Class) []domain.Class); ok {
 		r0 = rf(classes)
 	} else {
 		if ret.Get(0) != nil {
@@ -30,11 +30,11 @@ func (_m *MapperMock) DTOClassesToDomain(classes []dto.Class) []domain.Class {
 }
 
 // DTOProfileToDomain provides a mock function with given fields: email, profile
-func (_m *MapperMock) DTOProfileToDomain(email string, profile dto.Profile) domain.Profile {
+func (_m *MapperMock) DTOProfileToDomain(email string, profile dto2.Profile) domain.Profile {
 	ret := _m.Called(email, profile)
 
 	var r0 domain.Profile
-	if rf, ok := ret.Get(0).(func(string, dto.Profile) domain.Profile); ok {
+	if rf, ok := ret.Get(0).(func(string, dto2.Profile) domain.Profile); ok {
 		r0 = rf(email, profile)
 	} else {
 		r0 = ret.Get(0).(domain.Profile)

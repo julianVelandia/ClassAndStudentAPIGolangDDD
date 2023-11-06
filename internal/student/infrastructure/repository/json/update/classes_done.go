@@ -3,14 +3,14 @@ package update
 import (
 	"encoding/json"
 	"errors"
+	dto2 "github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/infrastructure/repository/dto"
 	"os"
 
 	"github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/application/command"
-	"github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/infrastructure/repository/json/dto"
 )
 
 type Mapper interface {
-	CommandToDTOClass(cmd command.UpdateClassesDone) dto.Class
+	CommandToDTOClass(cmd command.UpdateClassesDone) dto2.Class
 }
 
 type ClassRepositoryUpdate struct {
@@ -28,7 +28,7 @@ func (r ClassRepositoryUpdate) UpdateClassesDoneInUserProfile(cmd command.Update
 		return err
 	}
 
-	profiles := make(map[string]dto.Profile)
+	profiles := make(map[string]dto2.Profile)
 	err = json.Unmarshal(data, &profiles)
 	if err != nil {
 		return err

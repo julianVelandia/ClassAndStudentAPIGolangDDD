@@ -2,7 +2,7 @@ package mapper
 
 import (
 	"github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/application/command"
-	"github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/infrastructure/repository/json/dto"
+	"github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/infrastructure/repository/dto"
 )
 
 type Mapper struct{}

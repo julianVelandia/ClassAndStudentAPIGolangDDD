@@ -4,8 +4,7 @@ package update_test
 
 import (
 	command "github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/application/command"
-	dto "github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/infrastructure/repository/json/dto"
-
+	"github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/infrastructure/repository/dto"
 	mock "github.com/stretchr/testify/mock"
 )
 

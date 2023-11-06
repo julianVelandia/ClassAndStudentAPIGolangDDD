@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/domain"
-	"github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/infrastructure/repository/json/dto"
+	"github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/infrastructure/repository/dto"
 )
 
 type Mapper interface {

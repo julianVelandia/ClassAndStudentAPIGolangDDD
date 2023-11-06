@@ -1,11 +1,11 @@
 package read_test
 
 import (
+	"github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/infrastructure/repository/dto"
 	"github.com/stretchr/testify/mock"
 	"testing"
 
 	"github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/domain"
-	"github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/infrastructure/repository/json/dto"
 	"github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/infrastructure/repository/json/read"
 	"github.com/stretchr/testify/assert"
 )

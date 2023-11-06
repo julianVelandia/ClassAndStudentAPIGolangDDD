@@ -1,10 +1,10 @@
 package update_test
 
 import (
+	"github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/infrastructure/repository/dto"
 	"testing"
 
 	"github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/application/command"
-	"github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/infrastructure/repository/json/dto"
 	"github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/infrastructure/repository/json/update"
 	"github.com/stretchr/testify/assert"
 )

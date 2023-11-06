@@ -1,9 +1,9 @@
 package mapper_test
 
 import (
+	dto2 "github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/infrastructure/repository/dto"
 	"testing"
 
-	"github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/infrastructure/repository/json/dto"
 	"github.com/julianVelandia/EDteam/DDDyCQRS/internal/student/infrastructure/repository/json/read/mapper"
 	"github.com/stretchr/testify/assert"
 )
@@ -19,7 +19,7 @@ const (
 
 func TestMapper_DTOProfileToDomain(t *testing.T) {
 	mapperRead := mapper.Mapper{}
-	profile := dto.Profile{
+	profile := dto2.Profile{
 		Email: email,
 		Name:  name,
 	}
@@ -32,7 +32,7 @@ func TestMapper_DTOProfileToDomain(t *testing.T) {
 
 func TestMapper_DTOClassesToDomain(t *testing.T) {
 	mapperRead := mapper.Mapper{}
-	classesDTO := []dto.Class{
+	classesDTO := []dto2.Class{
 		{ClassID: classID1, Title: title1},
 		{ClassID: classID2, Title: title2},
 	}
