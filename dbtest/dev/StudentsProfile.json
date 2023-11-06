@@ -1,0 +1,36 @@
+{
+  "test1@email.com": {
+    "email": "",
+    "name": "Julián",
+    "classes_done": [
+      {
+        "class_id": "classid1",
+        "title": "clase 1"
+      },
+      {
+        "class_id": "classid1",
+        "title": "title Class 1"
+      },
+      {
+        "class_id": "classid1",
+        "title": "title Class 1"
+      },
+      {
+        "class_id": "classid1",
+        "title": "title Class 1"
+      },
+      {
+        "class_id": "classid1",
+        "title": "title Class 1"
+      },
+      {
+        "class_id": "classid1",
+        "title": "title Class 1"
+      },
+      {
+        "class_id": "classid1",
+        "title": "title Class 1"
+      }
+    ]
+  }
+}

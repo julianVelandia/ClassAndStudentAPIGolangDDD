@@ -1,0 +1,20 @@
+{
+  "test1@email.com": {
+    "name": "Julián",
+    "classes_done": [
+      {
+        "class_id": "classid1",
+        "title": "clase 1"
+      }
+    ]
+  },
+  "test2@email.com": {
+    "name": "Velandia",
+    "classes_done": [
+      {
+        "class_id": "classid1",
+        "title": "clase 1"
+      }
+    ]
+  }
+}
