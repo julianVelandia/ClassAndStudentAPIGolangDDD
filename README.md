@@ -2,7 +2,8 @@
 
 Domain Driven Design and hexagonal architecture course project
 
-Link: https://app.ed.team/cursos/solid
+Link SOLID: https://app.ed.team/cursos/solid
+Link DDD: https://app.ed.team/cursos/ddd
 
 * Endpoints
 
